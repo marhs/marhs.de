@@ -10,11 +10,10 @@ body {
 }
 
 #logo {
-	margin: 0px 50px 5px 20%;
+	margin: 0px 50px 5px 30%;
 	float: left;
 	width: 150px;
 	height: 150px;
-	border: 1px solid black;
 }
 #aboutMe {
 	margin: 0 auto 0 auto;
@@ -50,7 +49,15 @@ body {
 	margin-top: 5px;
 }
 
-@media screen and (max-width: 500px) {
+#logo img {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+ }
+
+@media screen and (max-width: 600px) {
 	#logo {
 		margin-left: auto;
 		margin-right: auto;
@@ -58,11 +65,18 @@ body {
 	}
 	#name {
 		margin-left: 20%;
-		height: 100px;
+		height: 70px;
+        font-size: 0.9em;
 	}
 	body {
 		background-color: white;
 	}
+    #aboutMe {
+        font-size: 0.8em;
+    }
+    #buttons {
+        font-size: 1.15em;
+    }
 	@media screen and (max-width: 386px) {
 		#logo {
 			margin-left: auto;
@@ -77,6 +91,7 @@ body {
 		body {
 			background-color: white;
 		}
+        
 	}
 }
 
