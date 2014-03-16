@@ -1,0 +1,82 @@
+body {
+	background-color: white;
+    font-family: "Gentium Book Basic", "Georgia", serif;
+}
+#main {
+	padding: 50px 25px 25px 25px;
+	margin: 0 auto 0 auto;
+	width: 85%;
+	height: 600px;
+}
+
+#logo {
+	margin: 0px 50px 5px 20%;
+	float: left;
+	width: 150px;
+	height: 150px;
+	border: 1px solid black;
+}
+#aboutMe {
+	margin: 0 auto 0 auto;
+	width: 65%;
+}
+#name {
+	margin-top: 45px;
+	margin-bottom: 10px;
+	height: 150px;
+}
+#buttons {
+	text-align: center;
+	width: 65%;
+    font-size: 1.4em;
+	margin: 30px auto 0 auto;
+}
+#aboutMe p {
+	text-align: center;
+	margin-top: 15px;
+	color: #170409;
+	font-size: 150%;
+}
+#name h1 {
+	color: black;
+	margin-bottom: 5px;
+}
+#name a {
+	text-decoration: none;
+	color: black;
+}
+#name h3 {
+	color: black;
+	margin-top: 5px;
+}
+
+@media screen and (max-width: 500px) {
+	#logo {
+		margin-left: auto;
+		margin-right: auto;
+		float:none;
+	}
+	#name {
+		margin-left: 20%;
+		height: 100px;
+	}
+	body {
+		background-color: white;
+	}
+	@media screen and (max-width: 386px) {
+		#logo {
+			margin-left: auto;
+			margin-right: auto;
+			float:none;
+		}
+		#name {
+			margin: 0 auto 0 20%;
+			width: 65%;
+			height: 100px;
+		}
+		body {
+			background-color: white;
+		}
+	}
+}
+
