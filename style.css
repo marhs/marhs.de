@@ -78,6 +78,7 @@ body {
 	}
     #aboutMe {
         font-size: 0.8em;
+        width: 100%;
     }
     #buttons {
         font-size: 1.15em;
